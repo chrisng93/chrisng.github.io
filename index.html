@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Sans">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <title>Chris Ng</title>
+  </head>
+  <body>
+    <div id="pt-main" class="pt-perspective">
+      <!-- Home -->
+      <div class="home pt-page pt-page-1">
+        <h1>Chris Ng</h1>
+        <h3>
+          Software Engineer at Coord<br />
+          UC Berkeley Graduate<br />
+          Bay Area Sports Fan
+        </h3>
+        <div class="nav">
+          <li class="home-about animate-about">
+            <a>About</a>
+          </li>
+          <li class="home-portfolio animate-portfolio">
+            <a>Portfolio</a>
+          </li>
+        </div>
+      </div>
+      <!-- About Me -->
+      <div class="about pt-page pt-page-2">
+        <div class="back animate-home-from-about">
+          <i class="material-icons medium">arrow_upward</i>
+        </div>
+        <div class="about-bio">
+          <h1>About Me</h1>
+          <p>
+            My name is Chris Ng and I'm a software engineer at <a href="https://coord.co" target="_blank">Coord</a>,
+            a Sidewalk Labs and Alphabet company based in New York. At Coord, I've been working across the stack
+            (JavaScript, React, Go, Kubernetes, Postgres), primarily on the Curbs and Bike Share APIs. Previously,
+            I worked at Pivotus Ventures, Apple, Caviar, and Merrill Lynch in various capacities.
+          </p>
+          <p>
+            I'm Bay Area born and raised (SJ, Berkeley, and SF), but moved out to New York in 2017 to start up my
+            job at Coord. In my free time you can find me exploring cities, chilling with friends, watching sports,
+            going to music events, and checking out clothes.
+          </p>
+          <p>
+            If you're interested in chatting with me about whatever, feel free to contact me on any of the links
+            on the bottom left!
+          </p>
+        </div>
+        <div class="picture-container">
+          <div class="me">
+            <img src="https://s3-us-west-1.amazonaws.com/chrisng-personal-site/me.png" alt="me" />
+          </div>
+          <div class="tech-logos">
+            <a href="https://www.javascript.com" target="_blank">
+              <img src="https://s3-us-west-1.amazonaws.com/chrisng-personal-site/js-logo.png" alt="js"/>
+            </a>
+            <a href="https://golang.org" target="_blank">
+              <img src="https://s3-us-west-1.amazonaws.com/chrisng-personal-site/go-logo.jpg" alt="golang"/>
+            </a>
+            <a href="https://reactjs.org" target="_blank">
+              <img src="https://s3-us-west-1.amazonaws.com/chrisng-personal-site/react-logo.png" alt="react"/>
+            </a>
+            <a href="https://kubernetes.io" target="_blank">
+              <img src="https://s3-us-west-1.amazonaws.com/chrisng-personal-site/kubernetes-logo.png" alt="kubernetes"/>
+            </a>
+            <a href="https://nodejs.org" target="_blank">
+              <img src="https://s3-us-west-1.amazonaws.com/chrisng-personal-site/node-logo.png" alt="node"/>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Portfolio -->
+      <div class="portfolio pt-page pt-page-3">
+        <div class="back animate-home-from-portfolio">
+          <i class="material-icons medium">arrow_upward</i>
+        </div>
+        <h1>Portfolio</h1>
+        <div class="portfolio-items">
+          <!-- Hypeset -->
+          <div class="col s12 m7">
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="https://s3-us-west-1.amazonaws.com/chrisng-personal-site/hypeset.jpeg" alt="hypeset" />
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <span class="card-title">Hypeset</span>
+                  <p>
+                    hypeset is a clothing news and sales aggregator. It parses Grailed and Hypebeast for news and calls the Reddit
+                    API for sales on popular brands. I check Grailed, Hypebeast, and the Reddit frugalmalefashion subreddit pretty
+                    frequently and decided I might as well have something check them for me.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <div class="tech-container">
+                    <span class="card-title">Technologies</span>
+                    <p class="tech-items">
+                      React&nbsp;&nbsp;&nbsp;&nbsp;
+                      Redux&nbsp;&nbsp;&nbsp;&nbsp;
+                      Thunk&nbsp;&nbsp;&nbsp;&nbsp;
+                      Node.js&nbsp;&nbsp;&nbsp;&nbsp;
+                      Express<br/>
+                      PostgreSQL&nbsp;&nbsp;&nbsp;&nbsp;
+                      Redis
+                    </p>
+                  </div>
+                  <div class="github-icon">
+                    <a href="http://github.com/chrisng93/hypeset" target="_blank">
+                      <img
+                        src="https://s3-us-west-1.amazonaws.com/chrisng-personal-site/github_icon_white.png"
+                        alt="hypeset_github_link"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Dished. -->
+          <div class="col s12 m7">
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="https://s3-us-west-1.amazonaws.com/chrisng-personal-site/dished.jpeg" alt="dished" />
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <span class="card-title">Dished.</span>
+                  <p>
+                    dished. is an app designed to help you figure out where to eat. You give it your location, how far you want to
+                    travel, how you want to travel (car, bike, public transit), and the food you\'re feeling, and it'll tell you
+                    the best places around your area. Inspired by a love for food, people\'s indecision when it comes to choosing
+                    a restaurant, and a desire to try out new technologies (Flask and Redux-Observables).
+                  </p>
+                </div>
+                <div class="card-action">
+                  <div class="tech-container">
+                    <span class="card-title">Technologies</span>
+                    <p class="tech-items">
+                      React&nbsp;&nbsp;&nbsp;&nbsp;
+                      Redux&nbsp;&nbsp;&nbsp;&nbsp;
+                      Redux-Observables<br/>
+                      Flask&nbsp;&nbsp;&nbsp;&nbsp;
+                      SQLite&nbsp;&nbsp;&nbsp;&nbsp;
+                      Redis
+                    </p>
+                  </div>
+                  <div class="github-icon">
+                    <a href="http://github.com/chrisng93/dished." target="_blank">
+                      <img
+                        src="https://s3-us-west-1.amazonaws.com/chrisng-personal-site/github_icon_white.png"
+                        alt="dished_github_link"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Fitomo -->
+          <div class="col s12 m7">
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="https://s3-us-west-1.amazonaws.com/chrisng-personal-site/fitomo.jpeg" alt="fitomo" />
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <span class="card-title">Fitomo</span>
+                  <p>
+                    Fitomo is a gamification fitness app that allows you to compete with friends and level up your character.
+                    It connects to the Fitbit and Jawbone (RIP) APIs and uses your data to allow you to gain XP for your character.
+                    This was created with some classmates at Hack Reactor.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <div class="tech-container">
+                    <span class="card-title">Technologies</span>
+                    <p class="tech-items">
+                      React&nbsp;&nbsp;&nbsp;&nbsp;
+                      Redux&nbsp;&nbsp;&nbsp;&nbsp;
+                      Node.js&nbsp;&nbsp;&nbsp;&nbsp;
+                      Express<br/>
+                      Flask&nbsp;&nbsp;&nbsp;&nbsp;
+                      MySQL
+                    </p>
+                  </div>
+                  <div class="github-icon">
+                    <a href="http://github.com/Fitomo" target="_blank">
+                      <img
+                        src="https://s3-us-west-1.amazonaws.com/chrisng-personal-site/github_icon_white.png"
+                        alt="fitomo_github_link"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Batcher -->
+          <div class="col s12 m7">
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="https://s3-us-west-1.amazonaws.com/chrisng-personal-site/batcher.png" alt="batcher" />
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <span class="card-title">Batcher</span>
+                  <p>
+                    Batcher is a Soundcloud batch downloader. It grabs a playlist from Soundcloud, lets you choose some metadata
+                    regarding songs\' mp3 files (song title and artist), and then allows you to download the songs in that playlist.
+                    This one was inspired by my love for music and laziness in downloading it.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <div class="tech-container">
+                    <span class="card-title">Technologies</span>
+                    <p class="tech-items">
+                      React&nbsp;&nbsp;&nbsp;&nbsp;
+                      Redux&nbsp;&nbsp;&nbsp;&nbsp;
+                      Thunk&nbsp;&nbsp;&nbsp;&nbsp;
+                      Node.js<br/>
+                      Express&nbsp;&nbsp;&nbsp;&nbsp;
+                      CasperJS
+                    </p>
+                  </div>
+                  <div class="github-icon">
+                    <a href="http://github.com/chrisng93/batcher" target="_blank">
+                      <img
+                        src="https://s3-us-west-1.amazonaws.com/chrisng-personal-site/github_icon_white.png"
+                        alt="batcher_github_link"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Icons -->
+    <ul class="icons">
+      <li class="icons-github">
+        <div>
+          <a href="http://github.com/chrisng93" target="_blank" rel="noopener noreferrer">
+            <img src="https://s3-us-west-1.amazonaws.com/chrisng-personal-site/github_icon_white.png" alt="github" />
+          </a>
+        </div>
+      </li>
+      <li class="icons-linkedin">
+        <div>
+          <a href="http://linkedin.com/in/chrisng93" target="_blank" rel="noopener noreferrer">
+            <img src="https://s3-us-west-1.amazonaws.com/chrisng-personal-site/linkedin_icon.png" alt="linkedin" />
+          </a>
+        </div>
+      </li>
+      <li class="icons-soundcloud">
+        <div>
+          <a href="http://soundcloud.com/chris-ng-6" target="_blank" rel="noopener noreferrer">
+            <img src="https://s3-us-west-1.amazonaws.com/chrisng-personal-site/soundcloud_icon.png" alt="soundcloud">
+          </a>
+        </div>
+      </li>
+      <li class="icons-email">
+        <div>
+          <a href="mailto:chrisng93@gmail.com">
+            <img src="https://s3-us-west-1.amazonaws.com/chrisng-personal-site/email_icon.png" alt="email" />
+          </a>
+        </div>
+      </li>
+    </ul>
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="logic.js"></script>
+  </body>
+</html>
