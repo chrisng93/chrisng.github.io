@@ -247,10 +247,6 @@ body {
   flex: 1;
 }
 
-.picture-container .me {
-  margin: auto;
-}
-
 .picture-container .me img {
   max-width: 200px;
   margin-left: auto;
@@ -260,14 +256,20 @@ body {
 }
 
 .picture-container .tech-logos {
+  max-width: 200px;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
 }
 
 .picture-container .tech-logos img {
-  height: 60px;
+  height: 70px;
   margin-top: 8px;
+}
+
+.picture-container .tech-logos a:nth-of-type(even) {
+  margin-left: 24px;
 }
 
 /* Medium and down */
