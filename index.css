@@ -410,11 +410,44 @@ body {
 }
 
 .icons li div {
-  height: 70px;
-  width: 70px;
+  height: 60px;
+  width: 60px;
   border-radius: 50%;
   background-color: #4e5a65;
   transition: all 0.3s ease-in-out;
+}
+
+.icons li div a {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons li img {
+  z-index: 1;
+}
+
+.icons-github img {
+  max-height: 37px;
+  max-width: 37px;
+}
+
+.icons-linkedin img {
+  max-height: 28px;
+  max-width: 28px;
+}
+
+.icons-soundcloud img {
+  max-height: 40px;
+  max-width: 40px;
+}
+
+.icons-email img {
+  max-height: 31px;
+  max-width: 31px;
 }
 
 .icons-github div:hover {
@@ -433,68 +466,35 @@ body {
   background-color: #ff7700;
 }
 
-.icons li div a {
-  height: 70px;
-  width: 70px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.icons li img {
-  z-index: 1;
-}
-
-.icons-github img {
-  max-height: 45px;
-  max-width: 45px;
-}
-
-.icons-linkedin img {
-  max-height: 35px;
-  max-width: 35px;
-}
-
-.icons-email img {
-  max-height: 40px;
-  max-width: 40px;
-}
-
-.icons-soundcloud img {
-  max-height: 53px;
-  max-width: 53px;
-}
-
 /* Medium and down */
 @media only screen and (max-width: 991px) {
   .icons li div {
-    height: 55px;
-    width: 55px;
+    height: 40px;
+    width: 40px;
   }
 
   .icons li div a {
-    height: 55px;
-    width: 55px;
+    height: 40px;
+    width: 40px;
   }
 
   .icons-github img {
-    max-height: 40px;
-    max-width: 40px;
+    max-height: 25px;
+    max-width: 25px;
   }
   
   .icons-linkedin img {
-    max-height: 30px;
-    max-width: 30px;
-  }
-  
-  .icons-email img {
-    max-height: 35px;
-    max-width: 35px;
+    max-height: 20px;
+    max-width: 20px;
   }
   
   .icons-soundcloud img {
-    max-height: 45px;
-    max-width: 45px;
+    max-height: 28px;
+    max-width: 28px;
+  }
+  
+  .icons-email img {
+    max-height: 21px;
+    max-width: 21px;
   }
 }
